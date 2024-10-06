@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-image: url('./Designer.jpeg');
+    background-size: fixed;
+    color: white;
+    position: relative;
+    z-index: 1
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: black;
+    background-color: white;
+    
+}
+
+p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+button {
+    display: inline-block;
+    margin: 10px;
+    padding: 15px 25px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+    transform: scale(1.1);
+}
+
+button:active {
+    background-color: #39843c;
+}
+
+#speakButton {
+    background-color: #2196F3;
+}
+
+#speakButton:hover {
+    background-color: #1976D2;
+}
+
+#speakButton:active {
+    background-color: #0D47A1;
+}
+
+#storyButton {
+    background-color: #FF9800;
+}
+
+#storyButton:hover {
+    background-color: #FB8C00;
+}
+
+#storyButton:active {
+    background-color: #EF6C00;
+}
+
+#resetButton {
+    background-color: #F44336;
+}
+
+#resetButton:hover {
+    background-color: #E53935;
+}
+
+#resetButton:active {
+    background-color: #D32F2F;
+}
